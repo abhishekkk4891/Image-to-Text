@@ -15,14 +15,14 @@ becomes easier. There are three steps for pre-process :-
 image size is less than 300 ppi consider rescaling it to get your image ready for 
 tesseract.
 
-3. Binarization : Computers see images as array of pixel values as you know. And 
+2. Binarization : Computers see images as array of pixel values as you know. And 
 it will be better for our buddy tesseract to see and distinguish if there are only 
 two colors either black and white. So he won’t get confused. So binarization is 
 the process of converting the image to two binaries which will help tesseract to 
 identify text easily but given a condition that it may fails if your image contrast 
 is low or with dark background
 
-5. Noise Removal : Noise are the grains present in the image. Noise in images 
+3. Noise Removal : Noise are the grains present in the image. Noise in images 
 make computers hard to work on. So there are many methods for noise removal.
 
 Tesseract OCR engine - Tesseract tests the text lines to determine whether they are 
